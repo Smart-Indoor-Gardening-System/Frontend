@@ -38,7 +38,8 @@ Ensure your project has a Dockerfile at the root.
 Navigate to your project's root directory and build the Docker image:
 docker build -t vite-react-app:v1.0.0 .
 
-docker run -it --rm -p 5173:5173 vite-react-app:v1.0.0
+docker run -it --rm -p 5173:5173 -v $(pwd):/app vite-react-app:v1.0.0
+
 
 ## Step 4: Access Your Frontend
 Open your web browser and visit http://localhost:5173/ to view your running frontend application.
