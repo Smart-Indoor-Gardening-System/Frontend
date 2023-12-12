@@ -24,7 +24,7 @@ Currently, two official plugins are available:
 
 Clone your frontend project repository to your local machine:
 
-```bash
+
 git clone https://github.com/Smart-Indoor-Gardening-System/Frontend.git
 cd Frontend-Master
 
